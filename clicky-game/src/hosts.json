@@ -1,0 +1,74 @@
+[
+	{
+		"id": 1,
+		"name": "Joanna Gaines",
+		"show": "Fixer-Upper",
+		"image": "https://cdn0.wideopencountry.com/wp-content/uploads/2016/07/Joanna-Gaines-HGTV-793x526.jpg"
+	}, 
+	{
+		"id": 2,
+		"name": "Christina El Moussa",
+		"show": "Flip or Flop",
+		"image": "https://i.pinimg.com/originals/c4/b5/5e/c4b55ed32f330a2b6243de97ae21dce4.png"
+	},
+	{
+		"id": 3,
+		"name": "Tarek El Moussa",
+		"show": "Flip or Flop",
+		"image": "https://marriedwiki.com/uploads/bio/tarek-el-moussa.jpg"
+	},
+	{
+		"id": 4,
+		"name": "Drew and Jonathan Scott",
+		"show": "Property Brothers",
+		"image": "http://paintcore.ca/wp-content/uploads/2011/09/property-brothers-1024-e1429229992524.png"
+	},
+	{
+		"id": 5,
+		"name": "Chip Gaines",
+		"show": "Flip or Flop",
+		"image": "https://hgtvhome.sndimg.com/content/dam/images/hgtv/editorial/profiles/talent/chip-gaines/hgtv-avatar-talent-chip-gaines.jpg.rend.hgtvcom.616.616.suffix/1413410611672.jpeg"
+	},
+	{
+		"id": 6,
+		"name": "Vanilla Ice",
+		"show": "The Vanilla Ice Project",
+		"image": "https://hgtvhome.sndimg.com/content/dam/images/hgtv/fullset/2012/6/4/1/HSTAR702_Judges-Guest-Vanilla-Ice_s4x3.jpg.rend.hgtvcom.231.231.suffix/1400972676656.jpeg"
+	},
+	{
+		"id": 7,
+		"name": "Nichole Curtis",
+		"show": "Rehab Addict",
+		"image": "https://hgtvhome.sndimg.com/content/dam/images/hgtv/editorial/profiles/talent/nicole-curtis/hgtv-avatar-talent-nicole-curtis.jpg.rend.hgtvcom.616.616.suffix/1413828908041.jpeg"
+	},
+	{
+		"id": 8,
+		"name": "Erin and Ben Napier",
+		"show": "Home Town",
+		"image": "http://wstale.com/wp-content/uploads/2018/04/erin-ben-napier-furniture-line-1523557919-1.jpg"
+	},
+	{
+		"id": 9,
+		"name": "Scott Mcgillivray",
+		"show": "Income Property Hunky Hosts And Income",
+		"image": "http://duck-walk.com/wp-content/uploads/hgtv-scott-mcgillivray-scott-mcgillivray-host-of-income-property-hunky-hosts-and-income.jpg"
+	},
+	{
+		"id": 10,
+		"name": "Hillary Farr and David Visentin",
+		"show": "Love It or List It",
+		"image": "https://www.cheatsheet.com/wp-content/uploads/2017/06/Hillary-Farr-and-David-Visentin-of-Love-It-or-List-It-640x480.jpeg"
+	},
+	{
+		"id": 11,
+		"name": "David Bromstad",
+		"show": "My Lottery Dream Home",
+		"image": "http://media.cleveland.com/insideout_impact/photo/david-bromstad-home-showjpg-c60517e646428369.jpg"
+	},
+	{
+		"id": 12,
+		"name": "Sabrina Soto",
+		"show": "Real Estate Intervention",
+		"image": "http://2.bp.blogspot.com/-oBs6RBmVj3c/UugbE0-0hoI/AAAAAAAACwo/c7-tV7Khw58/s1600/Picture+63.png"
+	}	
+]
