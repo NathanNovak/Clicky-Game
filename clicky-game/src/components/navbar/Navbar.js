@@ -6,14 +6,14 @@ const Navbar = props => {
 	return (
 		<div>
 			<nav className="navbar navbar-dark bg-primary">
-				<a className="navbar-brand" href="/">Navbar</a>
+				<a className="nav-text navbar-brand" href="/">Reload Page</a>
 				<ul className="navbar-nav">
-					<li className="nav-item tracking-in-contract">{props.message}</li>
-					<li className={`title ${props.correctMessageClass}`}>{props.correctMessage}</li>
-					<li className={`title' ${props.incorrectMessageClass}`}>{props.incorrectMessage}</li>
+					<li className="nav-item nav-text-message tracking-in-contract">{props.message}</li>
+					<li className={`title nav-text-message ${props.correctMessageClass}`}>{props.correctMessage}</li>
+					<li className={`title nav-text-message ${props.incorrectMessageClass}`}>{props.incorrectMessage}</li>
 				</ul>
 				<ul className="navbar-nav">
-					<li className="nav-item">Current Score {props.currentScore} | Top Score {props.topScore}</li>
+					<li className="nav-text nav-item">Current Score {props.currentScore} | Top Score {props.topScore}</li>
 				</ul>
 			</nav>
 		</div>

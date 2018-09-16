@@ -24,7 +24,7 @@ class App extends Component {
         correctMessageClass: '',
         incorrectMessage: '',
         incorrectMessageClass: '',
-        winMessage: '',
+        winMessage: 'Clicky Game!',
         winMessageClass: '',
         topScore: 0,
         currentScore: 0,
@@ -71,7 +71,7 @@ class App extends Component {
                 winMessage: 'You Are An HGTV Champ!!!',
                 winMessageClass: 'text-pop-up-top'
                 }
-            ,() => setTimeout(() =>this.reset(), 1000));
+            ,() => setTimeout(() =>this.reset(), 2000));
             
         }
         // this.reset();
@@ -82,8 +82,9 @@ class App extends Component {
         
         this.setState({
             currentScore: 0,
+            message:'',
             incorrectMessage: 'Wrong!',
-            incorrectMessageClass: 'swing-out-top-fwd',
+            incorrectMessageClass: 'tracking-in-contract',
             correctMessage: '',
             selectedHosts: []
         }, () => setTimeout(() => this.setState({IncorrectMessageClass: '', incorrectMessage: '', correctMessage:''}), 800))
@@ -100,11 +101,13 @@ class App extends Component {
         this.setState({
             hosts: hostsJson,
             currentScore: 0,
-            message: '',
+            winMessage: '',
+            winMessageClass: '',
+            message: "Click an Image to Begin!",
             correctMessage: '',
-            correctMessageClass: 'swing-out-top-fwd',
+            correctMessageClass: '',
             IncorrectMessage: '',
-            incorrectMessageClass: '',
+            incorrectMessageClass: 'flip-in-hor-bottom',
             selectedHosts: []
         })
         this.handleShuffle();
@@ -122,7 +125,10 @@ class App extends Component {
                     incorrectMessage={this.state.incorrectMessage}
                     incorrectMessageClass={this.state.incorrectMessageClass}
                 />
-                <Title winMessage={this.handleCorrect}/>
+                <Title 
+                    winMessage={this.state.winMessage}
+                    winMessageClass={this.state.winMessageClass}
+                    />
                 <Wrapper>
                 {this.state.hosts.map(host => (
                     <HostCard
