@@ -64,7 +64,7 @@ class App extends Component {
                 topScore: newScore
             })   
         }
-        if (newScore === 5){
+        if (newScore === 12){
             console.log(newScore);
             this.setState({ 
                 message: "",
